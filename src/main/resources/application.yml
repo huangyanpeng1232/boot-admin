@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: admin-server
+  mail:
+    host: smtp.163.com
+    username: myspring0105@163.com
+    password: UZIFBOCSEMJYDLGY
+  boot:
+    admin:
+      notify:
+        mail:
+          to: 2905325171@qq.com
+          from: myspring0105@163.com
+server:
+  port: 8769
